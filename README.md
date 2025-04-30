@@ -70,15 +70,18 @@ Each MLP model has the following structure:
   </tr>
 </table>
 
+
 - We can check that predicting extreme value(maximum or minimum) is relatively correctly conducted.
 - Also, you can see that it is relatively difficult to accurately determine the index of the median.
 - MLPs can be interpreted as being able to "approximate" alignment rather than performing it exactly.
 
-![sample_0](figures/sample_0.png)
+
+<img src="figures/sample_0.png" width="600"/>
 
 - We can see that there is some confusion about the central values.
 
-![confidence_matrix](figures/confidence_matrix.png)
+<img src="figures/confidence_matrix.png" width="600"/>
+
 
 - Models that predict extreme values ​​predict values ​​with relatively high confidence, whereas models that predict the central median have relatively low confidence.
 
